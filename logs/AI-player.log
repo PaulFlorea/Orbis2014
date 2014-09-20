@@ -1,0 +1,1561 @@
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:12:09 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:12:09 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:12:10 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:12:10 message sent for move 13: took 0 milliseconds
+ERROR:root:Unexcpected error when opening channel: 
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 77, in runClient
+    self.channel = self.channelFactory.openChannel(host, port)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/SocketChannel.py", line 13, in openChannel
+    sock.connect((host, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+ERROR:root:Unexcpected error when opening channel: 
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 77, in runClient
+    self.channel = self.channelFactory.openChannel(host, port)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/SocketChannel.py", line 13, in openChannel
+    sock.connect((host, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:14:17 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:14:17 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:14:18 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:14:18 message sent for move 13: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:14:37 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:14:37 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:14:38 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:14:38 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:14:39 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:14:39 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 16:14:40 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 16:14:40 message sent for move 22: took 0 milliseconds
+INFO:root:20/09/2014 16:14:40 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 16:14:40 message sent for move 23: took 0 milliseconds
+INFO:root:20/09/2014 16:14:40 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 16:14:40 message sent for move 24: took 0 milliseconds
+INFO:root:20/09/2014 16:14:40 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 16:14:40 message sent for move 25: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:16:08 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:16:08 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:16:09 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:16:09 message sent for move 14: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:16:18 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:16:18 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:16:19 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:16:19 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:16:20 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:16:20 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 16:16:21 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 16:16:21 message sent for move 22: took 0 milliseconds
+INFO:root:20/09/2014 16:16:21 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 16:16:21 message sent for move 23: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:16:29 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:16:29 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:16:29 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:16:29 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:16:29 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:16:29 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:16:29 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:16:29 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:16:30 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:16:30 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:16:31 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:16:31 message sent for move 17: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:16:41 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:16:41 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:16:41 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:16:41 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:16:41 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:16:41 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:16:42 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:16:42 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:16:43 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:16:43 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:16:43 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:16:43 message sent for move 12: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:16:59 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:16:59 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:16:59 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:16:59 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:16:59 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:16:59 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:17:00 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:17:00 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:17:01 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:17:01 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:17:01 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:17:01 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:17:01 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:17:01 message sent for move 13: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:17:51 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:17:51 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:17:51 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:17:51 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 16:17:51 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:17:51 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:17:51 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:17:51 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:17:52 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:17:52 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:17:53 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:17:53 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:17:54 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:17:54 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:17:54 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:17:54 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:17:54 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:17:54 message sent for move 21: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:17:59 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:17:59 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:17:59 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:17:59 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:17:59 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:17:59 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:17:59 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:17:59 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:17:59 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:17:59 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:18:00 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:18:00 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:18:01 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:18:01 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 22: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 23: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 24: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 25: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 26: took 0 milliseconds
+INFO:root:20/09/2014 16:18:02 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 16:18:02 message sent for move 27: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 28: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 29: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 30: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 31: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 32: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 33: took 0 milliseconds
+INFO:root:20/09/2014 16:18:03 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 16:18:03 message sent for move 34: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 35: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 36: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 37: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 38: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 39: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 40: took 0 milliseconds
+INFO:root:20/09/2014 16:18:04 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 16:18:04 message sent for move 41: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 42: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 43 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 43: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 44 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 44: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 45 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 45: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 46 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 46: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 47 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 47: took 0 milliseconds
+INFO:root:20/09/2014 16:18:05 calling getMove for turn 48 for player 1
+INFO:root:20/09/2014 16:18:05 message sent for move 48: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 49 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 49: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 50 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 50: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 51 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 51: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 52 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 52: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 53 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 53: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 54 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 54: took 0 milliseconds
+INFO:root:20/09/2014 16:18:06 calling getMove for turn 55 for player 1
+INFO:root:20/09/2014 16:18:06 message sent for move 55: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 56 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 56: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 57 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 57: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 58 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 58: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 59 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 59: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 60 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 60: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 61 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 61: took 0 milliseconds
+INFO:root:20/09/2014 16:18:07 calling getMove for turn 62 for player 1
+INFO:root:20/09/2014 16:18:07 message sent for move 62: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 63 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 63: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 64 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 64: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 65 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 65: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 66 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 66: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 67 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 67: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 68 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 68: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 69 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 69: took 0 milliseconds
+INFO:root:20/09/2014 16:18:08 calling getMove for turn 70 for player 1
+INFO:root:20/09/2014 16:18:08 message sent for move 70: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 71 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 71: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 72 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 72: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 73 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 73: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 74 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 74: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 75 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 75: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 76 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 76: took 0 milliseconds
+INFO:root:20/09/2014 16:18:09 calling getMove for turn 77 for player 1
+INFO:root:20/09/2014 16:18:09 message sent for move 77: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 78 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 78: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 79 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 79: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 80 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 80: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 81 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 81: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 82 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 82: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 83 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 83: took 0 milliseconds
+INFO:root:20/09/2014 16:18:10 calling getMove for turn 84 for player 1
+INFO:root:20/09/2014 16:18:10 message sent for move 84: took 0 milliseconds
+INFO:root:20/09/2014 16:18:11 calling getMove for turn 85 for player 1
+INFO:root:20/09/2014 16:18:11 message sent for move 85: took 0 milliseconds
+INFO:root:20/09/2014 16:18:11 calling getMove for turn 86 for player 1
+INFO:root:20/09/2014 16:18:11 message sent for move 86: took 0 milliseconds
+INFO:root:20/09/2014 16:18:11 calling getMove for turn 87 for player 1
+INFO:root:20/09/2014 16:18:11 message sent for move 87: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:18:27 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:18:27 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:18:27 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:18:27 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:18:27 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:18:27 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:18:27 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:18:27 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:18:28 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:18:28 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:18:29 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:18:29 message sent for move 18: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:20:44 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:20:44 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:20:44 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:20:44 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:20:44 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:20:44 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:20:44 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:20:44 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:20:45 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:20:45 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:20:46 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:20:46 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:20:47 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:20:47 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:20:47 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:20:47 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:20:47 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:20:47 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 16:20:47 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 16:20:47 message sent for move 22: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:23:15 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:23:15 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:23:16 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:23:16 message sent for move 13: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:54:55 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 16:54:55 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:55 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 16:54:55 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:54:56 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 16:54:56 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 19, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:54:56 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 16:54:56 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:56:17 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 16:56:17 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:17 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 16:56:17 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:56:18 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 16:56:18 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 38, in get_move
+    print playerFront(myPos,myDir)
+NameError: global name 'playerFront' is not defined
+INFO:root:20/09/2014 16:56:18 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 16:56:18 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:57:59 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 16:57:59 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:57:59 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 16:57:59 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:57:59 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 16:57:59 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:57:59 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 16:57:59 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:57:59 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 16:57:59 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:57:59 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 16:57:59 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:57:59 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 16:57:59 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:57:59 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 16:57:59 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:58:00 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 16:58:00 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:58:00 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 16:58:00 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:58:00 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 16:58:00 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:58:00 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 16:58:00 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:58:00 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 16:58:00 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 37, in get_move
+    print playerFront(myPos,myDir)
+TypeError: playerFront() takes exactly 3 arguments (2 given)
+INFO:root:20/09/2014 16:58:00 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 16:58:00 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:58:36 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:58:36 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 16:58:36 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:58:36 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:58:36 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:58:36 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:58:36 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:58:36 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:58:37 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:58:37 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 16:58:38 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 16:58:38 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 16:58:39 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 16:58:39 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 16:58:39 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 16:58:39 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 16:58:39 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 16:58:39 message sent for move 21: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:58:57 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:58:57 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:58:57 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:58:57 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:58:58 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:58:58 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 16:58:59 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 16:58:59 message sent for move 15: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:59:22 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:59:22 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:59:23 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:59:23 message sent for move 13: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 16:59:54 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 16:59:54 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 16:59:54 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 16:59:54 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 16:59:54 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 16:59:54 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 16:59:54 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 16:59:54 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 16:59:55 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 16:59:55 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 16:59:56 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 16:59:56 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 16:59:56 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 16:59:56 message sent for move 13: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:01:09 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:01:09 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:09 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:01:09 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:01:09 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:01:09 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:09 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:01:09 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:01:09 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:01:09 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:09 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:01:09 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:01:09 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:01:09 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:09 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:01:09 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:01:09 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:01:09 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:09 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:01:09 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:01:10 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:01:10 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:10 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:01:10 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:01:10 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:01:10 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(playerFront(myPos,myDir))
+TypeError: isObstacle() takes exactly 2 arguments (1 given)
+INFO:root:20/09/2014 17:01:10 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:01:10 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:01:38 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:01:38 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 17:01:39 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:01:39 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 17:01:40 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:01:40 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 17:01:40 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:01:40 message sent for move 15: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:02:01 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:02:01 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:01 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:02:01 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:02:01 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:02:01 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:01 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:02:01 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:02:02 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:02:02 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:02 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:02:02 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:02:02 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:02:02 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:02 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:02:02 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:02:02 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:02:02 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:02 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:02:02 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:02:02 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:02:02 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:02 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:02:02 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:02:02 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:02:02 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/lib/tronclient/Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 39, in get_move
+    print isObstacle(game_map,playerFront(myPos,myDir))
+  File "/home/paul/Documents/Orbis Challenge/OrbisChallengeDevKit-Python/tronplayer/PlayerAI.py", line 6, in isObstacle
+    return board[pos[0]][pos[1]] != empty and board[pos[0]][pos[1]] != powerup
+NameError: global name 'empty' is not defined
+INFO:root:20/09/2014 17:02:02 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:02:02 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:02:52 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:02:52 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:02:52 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:02:52 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 17:02:52 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:02:52 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:02:52 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:02:52 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 17:02:53 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:02:53 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 17:02:54 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:02:54 message sent for move 12: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:30 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:30 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:05:30 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:30 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 17:05:30 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:30 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 17:05:31 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:05:31 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 17:05:32 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:05:32 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 22: took 0 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 23: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 24: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 25: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 26: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 27: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 28: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 29: took 0 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 30: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:18:16 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:18:16 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:18:16 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:18:16 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 17:18:16 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:18:16 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:18:17 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:18:17 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:18:17 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:18:17 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:18:17 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:18:17 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:18:17 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:18:17 message sent for move 7: took 0 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:23:09 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:23:09 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:23:09 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:23:09 message sent for move 2: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 3: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 5: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 6: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 7: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 17:23:10 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:23:10 message sent for move 9: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 10: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 11: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 12: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 13: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 14: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 15: took 0 milliseconds
+INFO:root:20/09/2014 17:23:11 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:23:11 message sent for move 16: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 17: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 18: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 19: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 20: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 21: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 22: took 0 milliseconds
+INFO:root:20/09/2014 17:23:12 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:23:12 message sent for move 23: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 24: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 25: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 26: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 27: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 28: took 0 milliseconds
+INFO:root:20/09/2014 17:23:13 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:23:13 message sent for move 29: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 30: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 31: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 32: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 33: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 34: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 35: took 0 milliseconds
+INFO:root:20/09/2014 17:23:14 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:23:14 message sent for move 36: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 37: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 38: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 39: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 40: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 41: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 42: took 0 milliseconds
+INFO:root:20/09/2014 17:23:15 calling getMove for turn 43 for player 1
+INFO:root:20/09/2014 17:23:15 message sent for move 43: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 44 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 44: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 45 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 45: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 46 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 46: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 47 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 47: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 48 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 48: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 49 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 49: took 0 milliseconds
+INFO:root:20/09/2014 17:23:16 calling getMove for turn 50 for player 1
+INFO:root:20/09/2014 17:23:16 message sent for move 50: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 51 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 51: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 52 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 52: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 53 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 53: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 54 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 54: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 55 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 55: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 56 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 56: took 0 milliseconds
+INFO:root:20/09/2014 17:23:17 calling getMove for turn 57 for player 1
+INFO:root:20/09/2014 17:23:17 message sent for move 57: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 58 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 58: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 59 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 59: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 60 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 60: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 61 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 61: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 62 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 62: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 63 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 63: took 0 milliseconds
+INFO:root:20/09/2014 17:23:18 calling getMove for turn 64 for player 1
+INFO:root:20/09/2014 17:23:18 message sent for move 64: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 65 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 65: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 66 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 66: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 67 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 67: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 68 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 68: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 69 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 69: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 70 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 70: took 0 milliseconds
+INFO:root:20/09/2014 17:23:19 calling getMove for turn 71 for player 1
+INFO:root:20/09/2014 17:23:19 message sent for move 71: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 72 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 72: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 73 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 73: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 74 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 74: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 75 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 75: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 76 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 76: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 77 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 77: took 0 milliseconds
+INFO:root:20/09/2014 17:23:20 calling getMove for turn 78 for player 1
+INFO:root:20/09/2014 17:23:20 message sent for move 78: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 79 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 79: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 80 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 80: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 81 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 81: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 82 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 82: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 83 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 83: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 84 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 84: took 0 milliseconds
+INFO:root:20/09/2014 17:23:21 calling getMove for turn 85 for player 1
+INFO:root:20/09/2014 17:23:21 message sent for move 85: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 86 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 86: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 87 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 87: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 88 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 88: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 89 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 89: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 90 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 90: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 91 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 91: took 0 milliseconds
+INFO:root:20/09/2014 17:23:22 calling getMove for turn 92 for player 1
+INFO:root:20/09/2014 17:23:22 message sent for move 92: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 93 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 93: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 94 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 94: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 95 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 95: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 96 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 96: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 97 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 97: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 98 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 98: took 0 milliseconds
+INFO:root:20/09/2014 17:23:23 calling getMove for turn 99 for player 1
+INFO:root:20/09/2014 17:23:23 message sent for move 99: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 100 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 100: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 101 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 101: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 102 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 102: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 103 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 103: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 104 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 104: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 105 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 105: took 0 milliseconds
+INFO:root:20/09/2014 17:23:24 calling getMove for turn 106 for player 1
+INFO:root:20/09/2014 17:23:24 message sent for move 106: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 107 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 107: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 108 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 108: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 109 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 109: took 4 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 110 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 110: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 111 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 111: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 112 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 112: took 0 milliseconds
+INFO:root:20/09/2014 17:23:25 calling getMove for turn 113 for player 1
+INFO:root:20/09/2014 17:23:25 message sent for move 113: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 114 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 114: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 115 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 115: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 116 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 116: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 117 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 117: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 118 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 118: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 119 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 119: took 0 milliseconds
+INFO:root:20/09/2014 17:23:26 calling getMove for turn 120 for player 1
+INFO:root:20/09/2014 17:23:26 message sent for move 120: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 121 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 121: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 122 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 122: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 123 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 123: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 124 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 124: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 125 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 125: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 126 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 126: took 0 milliseconds
+INFO:root:20/09/2014 17:23:27 calling getMove for turn 127 for player 1
+INFO:root:20/09/2014 17:23:27 message sent for move 127: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 128 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 128: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 129 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 129: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 130 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 130: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 131 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 131: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 132 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 132: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 133 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 133: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 134 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 134: took 0 milliseconds
+INFO:root:20/09/2014 17:23:28 calling getMove for turn 135 for player 1
+INFO:root:20/09/2014 17:23:28 message sent for move 135: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 136 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 136: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 137 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 137: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 138 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 138: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 139 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 139: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 140 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 140: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 141 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 141: took 0 milliseconds
+INFO:root:20/09/2014 17:23:29 calling getMove for turn 142 for player 1
+INFO:root:20/09/2014 17:23:29 message sent for move 142: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 143 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 143: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 144 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 144: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 145 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 145: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 146 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 146: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 147 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 147: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 148 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 148: took 0 milliseconds
+INFO:root:20/09/2014 17:23:30 calling getMove for turn 149 for player 1
+INFO:root:20/09/2014 17:23:30 message sent for move 149: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 150 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 150: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 151 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 151: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 152 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 152: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 153 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 153: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 154 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 154: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 155 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 155: took 0 milliseconds
+INFO:root:20/09/2014 17:23:31 calling getMove for turn 156 for player 1
+INFO:root:20/09/2014 17:23:31 message sent for move 156: took 0 milliseconds
+INFO:root:20/09/2014 17:23:32 calling getMove for turn 157 for player 1
+INFO:root:20/09/2014 17:23:32 message sent for move 157: took 0 milliseconds
+INFO:root:20/09/2014 17:23:32 calling getMove for turn 158 for player 1
+INFO:root:20/09/2014 17:23:32 message sent for move 158: took 0 milliseconds
+INFO:root:20/09/2014 17:23:32 calling getMove for turn 159 for player 1
+INFO:root:20/09/2014 17:23:32 message sent for move 159: took 0 milliseconds
