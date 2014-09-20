@@ -1,5 +1,10 @@
-import random
+import sys
 from tronclient.Client import *
+
+#############################################################################
+#Basic spacial methods and vars to simplify logic
+CW = 0
+CCW = 1
 
 def isObstacle(board,pos):
 	return board[pos[0]][pos[1]] != EMPTY and board[pos[0]][pos[1]] != POWERUP
@@ -45,6 +50,7 @@ def moveForward(direct):
 		return PlayerActions.MOVE_DOWN
 
 def turnRight(direct):
+	print "Turning Right"
 	if direct == Direction.UP:
 		return PlayerActions.MOVE_RIGHT
 	elif direct == Direction.LEFT:
@@ -55,6 +61,7 @@ def turnRight(direct):
 		return PlayerActions.MOVE_LEFT
 
 def turnLeft(direct):
+	print "Turning Left"
 	if direct == Direction.UP:
 		return PlayerActions.MOVE_LEFT
 	elif direct == Direction.LEFT:
@@ -68,8 +75,28 @@ def willCollideWithEnemy(board,pos,direct):
 	frontTwo = playerFront(playerFront(pos,direct),direct)
 	return board[frontTwo[0]][frontTwo[1]] == LIGHTCYCLE
 
+def atEdge(board,pos,direct):
+	return len(board[0])-1 == playerFront(pos,direct)[0] or len(board[0])-1 == playerFront(pos,direct)[1]
+#############################################################################
+
+#Logic Methods
+
+def obstacleIsSafe(board,pos):
+  if isObstacle(board,[pos[0]+1,pos[1]]):
+    return False
+  elif isObstacle(board,[pos[0]-1,pos[1]]):
+    return False
+  elif isObstacle(board,[pos[0],pos[1]+1]):
+    return False
+  elif isObstacle(board,[pos[0],pos[1]-1]):
+    return False
+  return True
+
 class PlayerAI():
 	def __init__(self):
+		self.switching = False
+		self.chokePoints = list()
+		self.orientation = None
 		return
 
 	def new_game(self, game_map, player_lightcycle, opponent_lightcycle):
@@ -85,22 +112,77 @@ class PlayerAI():
 		# print playerFront(myPos,myDir)
 		# print isObstacle(game_map,playerFront(myPos,myDir))
 
-		if not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir):
-			return moveForward(myDir)
-		elif not isObstacle(game_map,playerRight(myPos,myDir)):
-			return turnRight(myDir)
-		else:
-			return turnLeft(myDir)
 
-		# randMove = random.randint(0, 3)
-		# if randMove == 0 and not :
-		# 	return PlayerActions.MOVE_LEFT
-		# elif randMove == 1:
-		# 	return PlayerActions.MOVE_RIGHT
-		# elif randMove == 2:
-		# 	return PlayerActions.MOVE_DOWN
-		# else:
-		# 	return PlayerActions.MOVE_UP
+		#Wall check
+		if self.orientation is None:
+			if isObstacle(game_map,playerRight(myPos,myDir)) and not isObstacle(game_map,playerLeft(myPos,myDir)):
+				self.orientation=CCW
+			elif isObstacle(game_map,playerLeft(myPos,myDir)) and not isObstacle(game_map,playerRight(myPos,myDir)):
+				self.orientation=CW
+
+		#Init avoidance algo		
+		if self.orientation is None:
+			if not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir):
+				return moveForward(myDir)
+			elif not isObstacle(game_map,playerRight(myPos,myDir)):
+				return turnRight(myDir)
+			else:
+				return turnLeft(myDir)
+
+		#Rotation Fill algo
+		if self.orientation is not None: 
+			#Clockwise
+			if self.orientation == CW:
+				if self.switching:
+					self.switching = False
+					if not isObstacle(game_map,playerLeft(myPos,myDir)):
+					 return turnLeft(myDir)
+
+				#Check for self.orientation switch
+				if not atEdge(game_map,myPos,myDir):
+					if (not isObstacle(game_map,playerFront(playerLeft(myPos,myDir),myDir)) 
+					 or (isObstacle(game_map,playerFront(playerFront(playerRight(myPos,myDir),myDir),myDir)) and not isObstacle(game_map,playerFront(playerFront(myPos,myDir),myDir)))):
+						self.chokePoints.append(playerFront(playerLeft(myPos,myDir),myDir))
+						self.switching = True
+						self.orientation = CCW
+						print "Switching to CCW"
+						print myPos
+						return turnRight(myDir)
+
+				#Move clockwise, avoiding obstacles and one-way paths
+				if not isObstacle(game_map,playerLeft(myPos,myDir)):
+					return turnLeft(myDir)
+				elif not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,playerRight(playerFront(myPos,myDir),myDir)):
+					return moveForward(myDir)
+				else:
+					return turnRight(myDir)
+
+			#Counter clockwise
+			if self.orientation == CCW:
+				if self.switching:
+					self.switching = False
+					if not isObstacle(game_map,playerRight(myPos,myDir)):
+					 return turnRight(myDir)
+
+				#Check for self.orientation switch
+				if not atEdge(game_map,myPos,myDir):
+					if (not isObstacle(game_map,playerFront(playerRight(myPos,myDir),myDir)) 
+						or (isObstacle(game_map,playerFront(playerFront(playerLeft(myPos,myDir),myDir),myDir)) and not isObstacle(game_map,playerFront(playerFront(myPos,myDir),myDir)))):
+						self.chokePoints.append(playerFront(playerRight(myPos,myDir),myDir))
+						self.switching = True
+						self.orientation = CW
+						print "Switching to CW"
+						return turnLeft(myDir)
+
+				#Move counter clockwise, avoiding obstacles and one-way paths
+				if not isObstacle(game_map,playerRight(myPos,myDir)):
+					return turnRight(myDir)
+				elif not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,playerLeft(playerFront(myPos,myDir),myDir)):
+					return moveForward(myDir)
+				else:
+					return turnLeft(myDir)
+
+
 
 
 
