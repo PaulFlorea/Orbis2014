@@ -8,10 +8,11 @@ CW = 0
 CCW = 1
 
 def isObstacle(board,pos,isInv = False,invCount=-1):
-	if isInv and invCount > 3:
-		return board[pos[0]][pos[1]] == WALL or board[pos[0]][pos[1]] == LIGHTCYCLE
-	elif not atEdge(board,pos):
-		return board[pos[0]][pos[1]] != EMPTY and board[pos[0]][pos[1]] != POWERUP
+	if not atEdge(board,pos):
+		if isInv and invCount > 2:
+			return board[pos[0]][pos[1]] == WALL or board[pos[0]][pos[1]] == LIGHTCYCLE
+		else:
+			return board[pos[0]][pos[1]] != EMPTY and board[pos[0]][pos[1]] != POWERUP
 	return True
 
 def isWall(board,pos):
