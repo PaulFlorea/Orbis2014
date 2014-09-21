@@ -9,7 +9,7 @@ CCW = 1
 def isObstacle(board,pos):
 	return board[pos[0]][pos[1]] != EMPTY and board[pos[0]][pos[1]] != POWERUP
 
-def playerFront(pos,direct):
+def pFront(pos,direct):
 	if direct == Direction.UP:
 		return [pos[0],pos[1]-1]
 	elif direct == Direction.DOWN:
@@ -19,7 +19,7 @@ def playerFront(pos,direct):
 	else:
 		return [pos[0]-1,pos[1]]
 
-def playerRight(pos,direct):
+def pRight(pos,direct):
 	if direct == Direction.UP:
 		return [pos[0]+1,pos[1]]
 	elif direct == Direction.DOWN:
@@ -29,7 +29,7 @@ def playerRight(pos,direct):
 	else:
 		return [pos[0],pos[1]-1]
 
-def playerLeft(pos,direct):
+def pLeft(pos,direct):
 	if direct == Direction.UP:
 		return [pos[0]-1,pos[1]]
 	elif direct == Direction.DOWN:
@@ -72,25 +72,41 @@ def turnLeft(direct):
 		return PlayerActions.MOVE_RIGHT
 
 def willCollideWithEnemy(board,pos,direct):
-	frontTwo = playerFront(playerFront(pos,direct),direct)
+	frontTwo = pFront(pFront(pos,direct),direct)
 	return board[frontTwo[0]][frontTwo[1]] == LIGHTCYCLE
 
-def atEdge(board,pos,direct):
-	return len(board[0])-1 == playerFront(pos,direct)[0] or len(board[0])-1 == playerFront(pos,direct)[1]
+def atEdge(board,pos):
+	return len(board[0])-1 == pos[0]+1 or len(board[0])-1 == pos[1]+1 or 0 == pos[0]-1 or 0 == pos[1]-1
 #############################################################################
 
 #Logic Methods
 
-def obstacleIsSafe(board,pos):
-  if isObstacle(board,[pos[0]+1,pos[1]]):
-    return False
-  elif isObstacle(board,[pos[0]-1,pos[1]]):
-    return False
-  elif isObstacle(board,[pos[0],pos[1]+1]):
-    return False
-  elif isObstacle(board,[pos[0],pos[1]-1]):
-    return False
-  return True
+#Tries to reach the destination around the obstacle in enough steps
+def obstacleIsSafe(board,start,dest,omitCoords,steps = 5):
+	if start == dest:
+		 print "SAFE"
+		 return True
+	# if atEdge(board,start):
+	# 	return False
+	omitCoords.append(start)
+	# print start, dest, steps
+	if steps:
+		if not isObstacle(board,[start[0]+1,start[1]]) and [start[0]+1,start[1]] not in omitCoords:
+			if obstacleIsSafe(board,[start[0]+1,start[1]],dest,omitCoords,steps-1):
+				return True
+		if not isObstacle(board,[start[0]-1,start[1]]) and [start[0]-1,start[1]] not in omitCoords:
+			if obstacleIsSafe(board,[start[0]-1,start[1]],dest,omitCoords,steps-1):
+				return True
+		if not isObstacle(board,[start[0],start[1]+1]) and [start[0],start[1]+1] not in omitCoords:
+			if obstacleIsSafe(board,[start[0],start[1]+1],dest,omitCoords,steps-1):
+				return True
+		if not isObstacle(board,[start[0],start[1]-1]) and [start[0],start[1]-1] not in omitCoords:
+			if obstacleIsSafe(board,[start[0],start[1]-1],dest,omitCoords,steps-1):
+				return True
+	else:
+		return False
+
+
 
 class PlayerAI():
 	def __init__(self):
@@ -109,22 +125,22 @@ class PlayerAI():
 		myY = myPos[1]
 		myDir = player_lightcycle['direction']
 
-		# print playerFront(myPos,myDir)
-		# print isObstacle(game_map,playerFront(myPos,myDir))
+		# print pFront(myPos,myDir)
+		# print isObstacle(game_map,pFront(myPos,myDir))
 
 
 		#Wall check
 		if self.orientation is None:
-			if isObstacle(game_map,playerRight(myPos,myDir)) and not isObstacle(game_map,playerLeft(myPos,myDir)):
+			if isObstacle(game_map,pRight(myPos,myDir)) and not isObstacle(game_map,pLeft(myPos,myDir)):
 				self.orientation=CCW
-			elif isObstacle(game_map,playerLeft(myPos,myDir)) and not isObstacle(game_map,playerRight(myPos,myDir)):
+			elif isObstacle(game_map,pLeft(myPos,myDir)) and not isObstacle(game_map,pRight(myPos,myDir)):
 				self.orientation=CW
 
 		#Init avoidance algo		
 		if self.orientation is None:
-			if not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir):
+			if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir):
 				return moveForward(myDir)
-			elif not isObstacle(game_map,playerRight(myPos,myDir)):
+			elif not isObstacle(game_map,pRight(myPos,myDir)):
 				return turnRight(myDir)
 			else:
 				return turnLeft(myDir)
@@ -135,52 +151,65 @@ class PlayerAI():
 			if self.orientation == CW:
 				if self.switching:
 					self.switching = False
-					if not isObstacle(game_map,playerLeft(myPos,myDir)):
+					if not isObstacle(game_map,pLeft(myPos,myDir)) and (not isObstacle(game_map,pFront(myPos,myDir)) or not isObstacle(game_map,pLeft(myPos,myDir))):
 					 return turnLeft(myDir)
 
+				#Hug wall
+				if not isObstacle(game_map,pLeft(myPos,myDir)):
+					return turnLeft(myDir)
+
 				#Check for self.orientation switch
-				if not atEdge(game_map,myPos,myDir):
-					if (not isObstacle(game_map,playerFront(playerLeft(myPos,myDir),myDir)) 
-					 or (isObstacle(game_map,playerFront(playerFront(playerRight(myPos,myDir),myDir),myDir)) and not isObstacle(game_map,playerFront(playerFront(myPos,myDir),myDir)))):
-						self.chokePoints.append(playerFront(playerLeft(myPos,myDir),myDir))
+				if not atEdge(game_map,myPos):
+					potentialObstacle = pFront(pFront(pRight(myPos,myDir),myDir),myDir)
+					if ((not isObstacle(game_map,pFront(pLeft(myPos,myDir),myDir)) and isObstacle(game_map,pFront(pFront(pLeft(myPos,myDir),myDir),myDir)))
+					 or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,pFront(myPos,myDir),pFront(pFront(pFront(myPos,myDir),myDir),myDir),[pFront(pFront(myPos,myDir),myDir),]) 
+						and not isObstacle(game_map,pFront(pFront(myPos,myDir),myDir)))):
+						self.chokePoints.append(pFront(pLeft(myPos,myDir),myDir))
 						self.switching = True
 						self.orientation = CCW
 						print "Switching to CCW"
-						print myPos
-						return turnRight(myDir)
+						if not isObstacle(game_map,pRight(myPos,myDir)):
+							return turnRight(myDir)
 
 				#Move clockwise, avoiding obstacles and one-way paths
-				if not isObstacle(game_map,playerLeft(myPos,myDir)):
-					return turnLeft(myDir)
-				elif not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,playerRight(playerFront(myPos,myDir),myDir)):
+				if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,pRight(pFront(myPos,myDir),myDir)):
 					return moveForward(myDir)
-				else:
+				elif not isObstacle(game_map,pRight(myPos,myDir)):
 					return turnRight(myDir)
+				else:
+					return moveForward(myDir)
 
 			#Counter clockwise
 			if self.orientation == CCW:
 				if self.switching:
 					self.switching = False
-					if not isObstacle(game_map,playerRight(myPos,myDir)):
+					if not isObstacle(game_map,pRight(myPos,myDir)) and (not isObstacle(game_map,pFront(myPos,myDir)) or not isObstacle(game_map,pRight(myPos,myDir))):
 					 return turnRight(myDir)
 
+				#Hug wall
+				if not isObstacle(game_map,pRight(myPos,myDir)):
+					return turnRight(myDir)
+
 				#Check for self.orientation switch
-				if not atEdge(game_map,myPos,myDir):
-					if (not isObstacle(game_map,playerFront(playerRight(myPos,myDir),myDir)) 
-						or (isObstacle(game_map,playerFront(playerFront(playerLeft(myPos,myDir),myDir),myDir)) and not isObstacle(game_map,playerFront(playerFront(myPos,myDir),myDir)))):
-						self.chokePoints.append(playerFront(playerRight(myPos,myDir),myDir))
+				if not atEdge(game_map,myPos):
+					potentialObstacle = pFront(pFront(pLeft(myPos,myDir),myDir),myDir)
+					if ((not isObstacle(game_map,pFront(pRight(myPos,myDir),myDir)) and isObstacle(game_map,pFront(pFront(pRight(myPos,myDir),myDir),myDir)))
+						or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,pFront(myPos,myDir),pFront(pFront(pFront(myPos,myDir),myDir),myDir),[pFront(pFront(myPos,myDir),myDir),])
+						 and not isObstacle(game_map,pFront(pFront(myPos,myDir),myDir)))):
+						self.chokePoints.append(pFront(pRight(myPos,myDir),myDir))
 						self.switching = True
 						self.orientation = CW
 						print "Switching to CW"
-						return turnLeft(myDir)
+						if not isObstacle(game_map,pLeft(myPos,myDir)):
+							return turnLeft(myDir)
 
 				#Move counter clockwise, avoiding obstacles and one-way paths
-				if not isObstacle(game_map,playerRight(myPos,myDir)):
-					return turnRight(myDir)
-				elif not isObstacle(game_map,playerFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,playerLeft(playerFront(myPos,myDir),myDir)):
+				if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,pLeft(pFront(myPos,myDir),myDir)):
 					return moveForward(myDir)
-				else:
+				elif not isObstacle(game_map,pLeft(myPos,myDir)):
 					return turnLeft(myDir)
+				else:
+					return moveForward(myDir)
 
 
 
@@ -239,5 +268,5 @@ class PlayerAI():
 				9. If you have any questions, contact challenge@orbis.com
 
 				10. Good luck! Submissions are due Sunday, September 21 at noon. You can submit multiple times and your most recent submission will be the one graded.
- 
+	
 '''
