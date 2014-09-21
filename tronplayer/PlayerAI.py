@@ -81,32 +81,31 @@ def atEdge(board,pos):
 
 #Logic Methods
 
-#Tries to reach the destination around the obstacle in enough steps
-def obstacleIsSafe(board,start,dest,omitCoords,steps = 5):
-	if start == dest:
-		 print "SAFE"
-		 return True
-	# if atEdge(board,start):
-	# 	return False
-	omitCoords.append(start)
-	# print start, dest, steps
-	if steps:
-		if not isObstacle(board,[start[0]+1,start[1]]) and [start[0]+1,start[1]] not in omitCoords:
-			if obstacleIsSafe(board,[start[0]+1,start[1]],dest,omitCoords,steps-1):
-				return True
-		if not isObstacle(board,[start[0]-1,start[1]]) and [start[0]-1,start[1]] not in omitCoords:
-			if obstacleIsSafe(board,[start[0]-1,start[1]],dest,omitCoords,steps-1):
-				return True
-		if not isObstacle(board,[start[0],start[1]+1]) and [start[0],start[1]+1] not in omitCoords:
-			if obstacleIsSafe(board,[start[0],start[1]+1],dest,omitCoords,steps-1):
-				return True
-		if not isObstacle(board,[start[0],start[1]-1]) and [start[0],start[1]-1] not in omitCoords:
-			if obstacleIsSafe(board,[start[0],start[1]-1],dest,omitCoords,steps-1):
-				return True
-	else:
-		return False
 
+def obstacleIsSafe(board,pos):
+	return not atEdge(board,pos) and (board[pos[0]][pos[1]] != TRAIL or board[pos[0]][pos[1]] != LIGHTCYCLE)
 
+def isDeadEnd(board,pos,omitpos, step=7):
+	if step:
+		# print pos, omitpos, step
+		omitpos.append(pos)
+		if	not isObstacle(board,pos):
+			return True
+		if not isObstacle(board,[pos[0]+1,pos[1]]) and [pos[0]+1,pos[1]] not in omitpos:
+			if isDeadEnd(board,[pos[0]+1,pos[1]],omitpos, step-1):
+				return True
+		elif not isObstacle(board,[pos[0]-1,pos[1]]) and [pos[0]-1,pos[1]] not in omitpos:
+			if isDeadEnd(board,[pos[0]-1,pos[1]],omitpos, step-1):
+				return True
+		elif not isObstacle(board,[pos[0],pos[1]+1]) and [pos[0],pos[1]+1] not in omitpos:
+			if isDeadEnd(board,[pos[0],pos[1]+1],omitpos, step-1):
+				return True
+		elif not isObstacle(board,[pos[0],pos[1]-1]) and [pos[0],pos[1]-1] not in omitpos:
+			if isDeadEnd(board,[pos[0],pos[1]-1],omitpos, step-1):
+				return True
+		else:
+			return True
+	return False
 
 class PlayerAI():
 	def __init__(self):
@@ -141,8 +140,10 @@ class PlayerAI():
 			if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir):
 				return moveForward(myDir)
 			elif not isObstacle(game_map,pRight(myPos,myDir)):
+				self.orientation=CW
 				return turnRight(myDir)
 			else:
+				self.orientation=CCW
 				return turnLeft(myDir)
 
 		#Rotation Fill algo
@@ -162,7 +163,7 @@ class PlayerAI():
 				if not atEdge(game_map,myPos):
 					potentialObstacle = pFront(pFront(pRight(myPos,myDir),myDir),myDir)
 					if ((not isObstacle(game_map,pFront(pLeft(myPos,myDir),myDir)) and isObstacle(game_map,pFront(pFront(pLeft(myPos,myDir),myDir),myDir)))
-					 or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,pFront(myPos,myDir),pFront(pFront(pFront(myPos,myDir),myDir),myDir),[pFront(pFront(myPos,myDir),myDir),]) 
+					 or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,potentialObstacle) 
 						and not isObstacle(game_map,pFront(pFront(myPos,myDir),myDir)))):
 						self.chokePoints.append(pFront(pLeft(myPos,myDir),myDir))
 						self.switching = True
@@ -172,12 +173,17 @@ class PlayerAI():
 							return turnRight(myDir)
 
 				#Move clockwise, avoiding obstacles and one-way paths
-				if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,pRight(pFront(myPos,myDir),myDir)):
+				if (not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and 
+					(not isObstacle(game_map,pRight(pFront(myPos,myDir),myDir)) or not isDeadEnd(game_map,pFront(myPos,myDir),[myPos,])
+					or not obstacleIsSafe(game_map,pRight(pFront(myPos,myDir),myDir)))):
 					return moveForward(myDir)
 				elif not isObstacle(game_map,pRight(myPos,myDir)):
-					return turnRight(myDir)
-				else:
+					if not isDeadEnd(game_map, pRight(myPos,myDir), [myPos,]):
+						return turnRight(myDir)
+				elif not isObstacle(game_map,pFront(myPos,myDir)):
 					return moveForward(myDir)
+				else:
+					return turnLeft(myDir)
 
 			#Counter clockwise
 			if self.orientation == CCW:
@@ -194,7 +200,7 @@ class PlayerAI():
 				if not atEdge(game_map,myPos):
 					potentialObstacle = pFront(pFront(pLeft(myPos,myDir),myDir),myDir)
 					if ((not isObstacle(game_map,pFront(pRight(myPos,myDir),myDir)) and isObstacle(game_map,pFront(pFront(pRight(myPos,myDir),myDir),myDir)))
-						or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,pFront(myPos,myDir),pFront(pFront(pFront(myPos,myDir),myDir),myDir),[pFront(pFront(myPos,myDir),myDir),])
+						or (isObstacle(game_map,potentialObstacle) and not obstacleIsSafe(game_map,potentialObstacle)
 						 and not isObstacle(game_map,pFront(pFront(myPos,myDir),myDir)))):
 						self.chokePoints.append(pFront(pRight(myPos,myDir),myDir))
 						self.switching = True
@@ -204,12 +210,17 @@ class PlayerAI():
 							return turnLeft(myDir)
 
 				#Move counter clockwise, avoiding obstacles and one-way paths
-				if not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and not isObstacle(game_map,pLeft(pFront(myPos,myDir),myDir)):
+				if (not isObstacle(game_map,pFront(myPos,myDir)) and not willCollideWithEnemy(game_map,myPos,myDir) and 
+					(not isObstacle(game_map,pLeft(pFront(myPos,myDir),myDir)) or not isDeadEnd(game_map,pFront(myPos,myDir),[myPos,])
+						or not obstacleIsSafe(game_map,pLeft(pFront(myPos,myDir),myDir)))):
 					return moveForward(myDir)
 				elif not isObstacle(game_map,pLeft(myPos,myDir)):
-					return turnLeft(myDir)
-				else:
+					if not isDeadEnd(game_map, pLeft(myPos,myDir), [myPos,]):
+						return turnLeft(myDir)
+				elif not isObstacle(game_map,pFront(myPos,myDir)):
 					return moveForward(myDir)
+				else:
+					return turnRight(myDir)
 
 
 
