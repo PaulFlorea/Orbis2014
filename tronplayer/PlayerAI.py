@@ -85,11 +85,11 @@ def atEdge(board,pos):
 def obstacleIsSafe(board,pos):
 	return not atEdge(board,pos) and (board[pos[0]][pos[1]] != TRAIL or board[pos[0]][pos[1]] != LIGHTCYCLE)
 
-def isDeadEnd(board,pos,omitpos, step=7):
+def isDeadEnd(board,pos,omitpos, step=12):
 	if step:
 		# print pos, omitpos, step
 		omitpos.append(pos)
-		if	not isObstacle(board,pos):
+		if isObstacle(board,pos):
 			return True
 		if not isObstacle(board,[pos[0]+1,pos[1]]) and [pos[0]+1,pos[1]] not in omitpos:
 			if isDeadEnd(board,[pos[0]+1,pos[1]],omitpos, step-1):
@@ -123,10 +123,6 @@ class PlayerAI():
 		myX = myPos[0]
 		myY = myPos[1]
 		myDir = player_lightcycle['direction']
-
-		# print pFront(myPos,myDir)
-		# print isObstacle(game_map,pFront(myPos,myDir))
-
 
 		#Wall check
 		if self.orientation is None:
@@ -177,12 +173,13 @@ class PlayerAI():
 					(not isObstacle(game_map,pRight(pFront(myPos,myDir),myDir)) or not isDeadEnd(game_map,pFront(myPos,myDir),[myPos,])
 					or not obstacleIsSafe(game_map,pRight(pFront(myPos,myDir),myDir)))):
 					return moveForward(myDir)
-				elif not isObstacle(game_map,pRight(myPos,myDir)):
-					if not isDeadEnd(game_map, pRight(myPos,myDir), [myPos,]):
+				elif not isObstacle(game_map,pRight(myPos,myDir)) and not isDeadEnd(game_map, pRight(myPos,myDir), [myPos,]):
 						return turnRight(myDir)
 				elif not isObstacle(game_map,pFront(myPos,myDir)):
+					print "welp"
 					return moveForward(myDir)
 				else:
+					print "OH NO"
 					return turnLeft(myDir)
 
 			#Counter clockwise
@@ -214,12 +211,13 @@ class PlayerAI():
 					(not isObstacle(game_map,pLeft(pFront(myPos,myDir),myDir)) or not isDeadEnd(game_map,pFront(myPos,myDir),[myPos,])
 						or not obstacleIsSafe(game_map,pLeft(pFront(myPos,myDir),myDir)))):
 					return moveForward(myDir)
-				elif not isObstacle(game_map,pLeft(myPos,myDir)):
-					if not isDeadEnd(game_map, pLeft(myPos,myDir), [myPos,]):
+				elif not isObstacle(game_map,pLeft(myPos,myDir)) and not isDeadEnd(game_map, pLeft(myPos,myDir), [myPos,]):
 						return turnLeft(myDir)
 				elif not isObstacle(game_map,pFront(myPos,myDir)):
+					print "welp"
 					return moveForward(myDir)
 				else:
+					print "OH NO"
 					return turnRight(myDir)
 
 
